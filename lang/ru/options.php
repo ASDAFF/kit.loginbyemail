@@ -1,13 +1,13 @@
 <?
-$MESS["IMYIE_SETTINGS"] = "Настройки";
-$MESS["IMYIE_TITLE"] = "Авторизация по E-mail";
+$MESS["KIT_SETTINGS"] = "Настройки";
+$MESS["KIT_TITLE"] = "Авторизация по E-mail";
 
-$MESS["IMYIE_LOGINBYEMAIL_PART"] = "Авторизация по E-mail";
-$MESS["IMYIE_LOGINBYEMAIL_ACTIVE"] = "Активировать";
+$MESS["KIT_LOGINBYEMAIL_PART"] = "Авторизация по E-mail";
+$MESS["KIT_LOGINBYEMAIL_ACTIVE"] = "Активировать";
 
-$MESS["IMYIE_LOGINBYLINK_PART"] = "Авторизация по ссылке";
-$MESS["IMYIE_LOGINBYLINK_ACTIVE"] = "Активировать";
-$MESS["IMYIE_LOGINBYLINK_LINK"] = "Ссылка на страницу авторизации";
+$MESS["KIT_LOGINBYLINK_PART"] = "Авторизация по ссылке";
+$MESS["KIT_LOGINBYLINK_ACTIVE"] = "Активировать";
+$MESS["KIT_LOGINBYLINK_LINK"] = "Ссылка на страницу авторизации";
 
-$MESS["IMYIE_LOGINBYEMAIL_BTN_SAVE"] = "Сохранить";
+$MESS["KIT_LOGINBYEMAIL_BTN_SAVE"] = "Сохранить";
 ?>

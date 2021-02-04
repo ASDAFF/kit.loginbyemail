@@ -1,15 +1,15 @@
 <?
-class CIMYIELoginByEmail
+class CKITLoginByEmail
 {
 	function On()
 	{
-		COption::SetOptionString("imyie.loginbyemail", "auth_by_email", "Y" );
-		RegisterModuleDependences("main", "OnBeforeUserLogin", "imyie.loginbyemail", "CIMYIELoginByEmail", "OnBeforeUserLoginHandler");
+		COption::SetOptionString("kit.loginbyemail", "auth_by_email", "Y" );
+		RegisterModuleDependences("main", "OnBeforeUserLogin", "kit.loginbyemail", "CKITLoginByEmail", "OnBeforeUserLoginHandler");
 	}
 	function Off()
 	{
-		COption::SetOptionString("imyie.loginbyemail", "auth_by_email", "N" );
-		UnRegisterModuleDependences("main", "OnBeforeUserLogin", "imyie.loginbyemail", "CIMYIELoginByEmail", "OnBeforeUserLoginHandler");
+		COption::SetOptionString("kit.loginbyemail", "auth_by_email", "N" );
+		UnRegisterModuleDependences("main", "OnBeforeUserLogin", "kit.loginbyemail", "CKITLoginByEmail", "OnBeforeUserLoginHandler");
 	}
 	function OnBeforeUserLoginHandler( &$arFields )
 	{

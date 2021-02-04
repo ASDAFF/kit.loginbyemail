@@ -3,10 +3,10 @@ global $DB, $MESS, $APPLICATION;
 IncludeModuleLangFile(__FILE__);
 
 CModule::AddAutoloadClasses(
-	"imyie.loginbyemail",
+	"kit.loginbyemail",
 	array(
-		"CIMYIELoginByEmail" => "classes/general/authbyemail.php",
-		"CIMYIELoginByLink" => "classes/general/authbylink.php",
+		"CKITLoginByEmail" => "classes/general/authbyemail.php",
+		"CKITLoginByLink" => "classes/general/authbylink.php",
 	)
 );
 ?>

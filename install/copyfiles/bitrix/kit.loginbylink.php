@@ -4,9 +4,9 @@ require_once($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_befo
 
 global $USER, $APPLICATION;
 
-CModule::IncludeModule('imyie.loginbyemail');
+CModule::IncludeModule('kit.loginbyemail');
 
-$link = COption::GetOptionString("imyie.loginbyemail", "loginbylink_link", "/auth/" );;
+$link = COption::GetOptionString("kit.loginbyemail", "loginbylink_link", "/auth/" );;
 
 if (!is_object($USER))
 	$USER = new CUser;
